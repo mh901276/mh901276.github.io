@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>My Socials</title>
+  <link rel="icon" type="favicon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="contactme.css">
+  <script src="contactme.js"></script>
+</head>
+
+<body>
+  <a href="index.html">Back to home page</a><br><br>
+  <div class="button-container">
+    <button id="scheme1"><img class="IcomImg" height="20" width="20" src="4676033-200.png" alt="Bright Mode"></button>
+    <button id="scheme2"><img class="IcomImg" height="20" width="20" src="6559240.png" alt="Bright Mode"></button>
+    <button id="scheme3"><img class="IcomImg" height="20" width="20" src="SHINE+icon.png" alt="Bright Mode"></button>
+  </div>
+  <script>// Get buttons
+    const scheme1Button = document.getElementById('scheme1');
+    const scheme2Button = document.getElementById('scheme2');
+    const scheme3Button = document.getElementById('scheme3');
+    
+    console.log(scheme1Button);
+    
+    // Add click event listeners to buttons
+    scheme1Button.addEventListener('click', changeScheme1);
+    scheme2Button.addEventListener('click', changeScheme2);
+    scheme3Button.addEventListener('click', changeScheme3);
+    
+    // Function to change to colour scheme 1
+    function changeScheme1() {
+      document.body.style.backgroundColor = '#fff';
+      document.body.style.color = '#000';
+      document.getElementsByTagName('h1')[0].style.color = '#000';
+    }
+    
+    // Function to change to colour scheme 2
+    function changeScheme2() {
+      document.body.style.backgroundColor = '#000';
+      document.body.style.color = '#000';
+      document.getElementsByTagName('h1')[0].style.color = '#000';
+    }
+    function changeScheme3() {
+      document.body.style.backgroundColor = '#FB5848';
+      document.body.style.color = 'FB5848';
+      document.getElementsByTagName('h1')[0].style.color = 'FB5848';
+    }</script>
+
+
+  <h1>Follow Me on Social Media</h1>
+
+  <div class="flex-container">
+    <div>
+      <a href="https://www.facebook.com/profile.php?id=100006290356995"><img height="300" width="300" src="facebook.png"
+          alt="icon">
+        <p>facebook</p>
+      </a>
+    </div>
+    <div>
+      <a href="https://www.instagram.com/md.roshxn/"><img height="300" width="300" src="instagram.png" alt="icon">
+        <p>Instagram</p>
+      </a>
+    </div>
+    <div>
+      <a href="https://twitter.com/ROSH4N_19"><img height="300" width="300" src="twitter.png" alt="icon">
+        <p>Twitter</p>
+      </a>
+    </div>
+
+  </div><br>
+
+  <table>
+    <tr>
+      <th><h4>My Phone Number</h4></th>
+      <th><i><h4>Email id</h4></i></th>
+
+    </tr>
+
+    <tr class="tb">
+      <td>+1 782 409 29040</td>
+      <td> roshannavas2003@gamil.com</td>
+
+    </tr>
+
+
+  </table>
+  <h2>If u have any feedbacks drop it down here</h2>
+  <form id="myForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your email..">
+
+    <label for="subject">Subject:</label>
+    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+
+    <input type="submit" value="Submit">
+  </form><br><br>
+ 
+<button id="toggle-button">Click Me for good luck</button><br>
+<div id="toggle-element" class="hidden">
+  <img src="giphy.gif" alt="Good Luck GIF">
+</div>
+
+  <script>
+    
+
+const toggleButton = document.getElementById("toggle-button");
+const toggleElement = document.getElementById("toggle-element");
+
+
+toggleButton.addEventListener("click", function() {
+  
+  if (toggleElement.classList.contains("hidden")) {
+   
+    toggleElement.classList.remove("hidden");
+  } else {
+    
+    toggleElement.classList.add("hidden");
+  }
+});
+
+    </script>
+
+  
+
+  <script src="contactme.js"></script>
+
+
+</body>
+
+</html>

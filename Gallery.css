@@ -1,0 +1,89 @@
+
+a:link {
+    color: rgb(251, 255, 0);
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+a:active {
+    color: blue;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.item1 {
+    grid-area: area-1;
+    background-color: rgb(239, 250, 72);
+
+}
+
+.item2 {
+    grid-area: area-2;
+    background-color: rgb(253, 180, 43);
+
+
+}
+
+.item3 {
+    grid-area: area-3;
+    background-color: cyan;
+}
+
+.item4 {
+    grid-area: area-4;
+    background-color: orange;
+}
+
+.item5 {
+    grid-area: area-5;
+    background-color: cyan;
+}
+
+.item6 {
+    grid-area: area-6;
+    background-color: orange;
+}
+
+.item7 {
+    grid-area: area-7;
+    background-color: cyan;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'area-1 area-2'
+        'area-3 area-4'
+        'area-5 area-6'
+        'area-7 area-6';
+        
+    gap: 10px;
+  
+    padding: 10px;
+}
+
+.grid-container>div {
+
+    text-align: center;
+    
+
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container img{
+
+    width: 25px;
+    height: 25px;
+}
