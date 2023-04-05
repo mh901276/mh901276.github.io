@@ -1,0 +1,86 @@
+a:link {
+    color: rgb(255, 230, 0);
+}
+
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(208, 255, 0);
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+h1 {
+    background-color: rgb(30, 245, 55);
+    color: rgb(4, 24, 41);
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 30px;
+}
+
+
+h1~p{
+    color: rgb(35, 13, 13);
+    padding: 10px;
+    font-size: larger;
+    font-style:italic;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+.item1{
+    background-color: rgb(218, 249, 45);
+    padding: 10px;
+}
+.item2{
+    background-color: rgb(249, 191, 45);
+    padding: 10px;
+}
+.item3{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(100, 229, 255);
+    font-size: larger;
+}
+.item4{
+    text-align: center  ;
+}
+img{
+    border: 2px;
+    padding: 30px;
+    margin: 10px;
+    background-color: aquamarine;
+}
+.item5{
+    background-color: thistle;
+    text-align: center;
+}
+
+
+.IcomImg{
+
+    background-color: white;
+    padding: 0px;
+    
+}
+
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
