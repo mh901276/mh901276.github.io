@@ -3,9 +3,8 @@ a:link {
 }
 
 a:visited {
-    color: rgb(237, 0, 186);
+    color: #0c8d00;
 }
-
 /* mouse over link */
 a:hover {
     color: rgb(208, 255, 0);
