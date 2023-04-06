@@ -1,10 +1,10 @@
 
 a:link {
-    color: rgb(251, 255, 0);
+    color: #15ff00;
 }
 
 a:visited {
-    color: green;
+    color: rgb(110, 248, 110);
 }
 
 a:hover {
