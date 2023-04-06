@@ -1,9 +1,9 @@
 a:link {
-    color: black;
+    color: #15ff00;
 }
 
 a:visited {
-    color: green;
+    color: rgb(110, 248, 110);
 }
 
 a:hover {
